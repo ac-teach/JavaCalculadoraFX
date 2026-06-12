@@ -1,3 +1,4 @@
+# NetBeans specific
 **/nbproject/private/
 **/nbproject/Makefile-*.mk
 **/nbproject/Package-*.bash
@@ -6,3 +7,9 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+# Optional: Avoid tracking common build artifacts (if not using Maven/Gradle)
+*.class
+*.jar
+*.war
+*.ear
